@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -assembler $CFILiE -o c
+gcc -s $CFILiE 
