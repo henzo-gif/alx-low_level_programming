@@ -7,9 +7,9 @@ int main(void)
 {
 	int h;
 
-	for (h = 0; h < 100; h++)
+	for (h = 0; h < 10; h++)
 		putchar(h + '0');
-	if (h < 99)
+	if (h < 9)
 	{
 	putchar(',');
 	putchar(' ');
