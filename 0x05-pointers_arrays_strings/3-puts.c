@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * main - check the code
- * @str: pointer to the string to [pprint
- * Return : Always 0 (success)
+ * _puts - prints a string, followed by a new line,
+ * @str: pointer to the string to print
+ * Return: void
  */
 void _puts(chhar *str)
 {
