@@ -7,9 +7,10 @@
 int main(void)
 {
 	int f;
+
 	f = 01;
 
-	while ( f <= 89)
+	while (f <= 89)
 	{
 		printf("%.2d, ", f);
 		f++;
