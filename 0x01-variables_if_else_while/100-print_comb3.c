@@ -7,10 +7,12 @@
 int main(void)
 {
 	int f;
+	f = 01;
 
-	for (f = 01; f <= 89; f++)
+	while ( f <= 89)
 	{
-		printf("%d, ", f);
+		printf("%.2d, ", f);
+		f++;
 	}
 	return (0);
 
