@@ -1,3 +1,7 @@
+/*
+ * file: 0-puts_recursion.c
+ * Auth: hena
+ */
 #include "main.h"
 /*
  * _puts_recursion - prints a string, followed by a new line
