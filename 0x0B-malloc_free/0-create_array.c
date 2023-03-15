@@ -1,12 +1,21 @@
 #include "main.h"
+#include <stdio.h>
+#include <stdlib.h>
 /**
- * main -  a function that creates an array of chars, and initializes it with a specific char.
- * Return: NULL if size = 0
+ * create_array -  function that creates an array of chars
+ * @size: size of array
+ * @c: char to assign
+ * Return: pointer to array
  */
 char *create_array(unsigned int size, char c)
 {
-	char *c[] = "henok";
-	putchar("%s\n", c);
-	return (0);
+	unsigned int i;
+	char *str;
 
+	str = malloc(sizeof(char) * size);
+	if (str == 0 || str == NULL)
+		return (NULL);
+	for (i = 0; i < size; i++)
+		str[i] = c;
+	return (str);
 }
