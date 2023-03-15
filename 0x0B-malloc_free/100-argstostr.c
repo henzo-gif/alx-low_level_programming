@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stdlib.h>
+#include "main.h"
 /**
  * argstostr - main entry
  * @ac: int input
@@ -8,7 +9,7 @@
  */
 char *argstostr(int ac, char **av)
 {
-	int i, r = 0, l = 0;
+	int i, r = 0, l = 0,n;
 	char *str;
 
 	if (ac == 0 || av == NULL)
@@ -19,7 +20,7 @@ char *argstostr(int ac, char **av)
 			i++;
 	}
 	l += ac;
-	str = malloc(sizeof(char) * l + 1)
+	str = malloc(sizeof(char) * l + 1);
 		if (str == NULL)
 			return (NULL);
 				for (i = 0; i < ac; i++)
